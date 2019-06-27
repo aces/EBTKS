@@ -12,9 +12,9 @@
               express or implied warranty.
 ---------------------------------------------------------------------------- 
 $RCSfile: FileIO.cc,v $
-$Revision: 1.4 $
-$Author: bert $
-$Date: 2006-03-02 13:22:17 $
+$Revision: 1.5 $
+$Author: clepage $
+$Date: 2018/12/05 18:24:46 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #include <config.h>
@@ -38,10 +38,10 @@ InputFile::InputFile()
   _ipipe = 0;
 }
 
-InputFile::operator void *() const
+InputFile::operator std::istream *() const
 {
   if (_ipipe)
-    return *_ipipe;
+    return _ipipe;
   return 0;
 }
 

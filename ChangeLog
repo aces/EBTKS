@@ -1,3 +1,8 @@
+2017-10-03  Claude Lepage <claude@bic.mni.mcgill.ca>
+   * Fixed finite() in templates SimpleArray.cc and SimpleArraySpec.cc
+     to compile with recent gcc on CentOS
+   * FileIO.h,.cc: fix std::istream for _ipipe to compile with g++-7.3.0
+
 2014-10-28  Claude Lepage <claude@bic.mni.mcgill.ca>
    * Changes (in templates/) for build with gcc 4.8
 

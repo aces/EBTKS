@@ -1,3 +1,9 @@
+New in Release 1.6.6
+--------------------
+Fixed finite() in templates SimpleArray.cc and SimpleArraySpec.cc
+to compile with recent gcc on CentOS
+FileIO.h,.cc: fix std::istream for _ipipe to compile with g++-7.3.0
+
 New in Release 1.6.5
 --------------------
 Changes (in templates/) for build with gcc 4.8

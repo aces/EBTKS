@@ -12,9 +12,9 @@
               express or implied warranty.
 ---------------------------------------------------------------------------- 
 $RCSfile: SimpleArray.cc,v $
-$Revision: 1.10 $
+$Revision: 1.11 $
 $Author: claude $
-$Date: 2014-10-28 17:56:38 $
+$Date: 2017/10/03 21:04:01 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #include <config.h>
@@ -611,14 +611,14 @@ SimpleArray<Type>::common(const SimpleArray<Type>& array) const
 }
 
 #if HAVE_FINITE
-#ifndef finite
-extern "C" int finite(double);
-#endif /* finite() not defined (as macro) */
+// #ifndef finite
+// extern "C" int finite(double);
+// #endif /* finite() not defined (as macro) */
 #define FINITE(x) finite(x)
 #elif HAVE_ISFINITE
-#ifndef isfinite
-extern "C" int isfinite(double);
-#endif /* isfinite() not defined (as macro) */
+// #ifndef isfinite
+// extern "C" int isfinite(double);
+// #endif /* isfinite() not defined (as macro) */
 #define FINITE(x) isfinite(x)
 #else
 #error "Neither finite() nor isfinite() is defined on your system"

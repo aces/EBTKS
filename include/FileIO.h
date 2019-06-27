@@ -12,9 +12,9 @@
               express or implied warranty.
 ---------------------------------------------------------------------------- 
 $RCSfile: FileIO.h,v $
-$Revision: 1.3 $
-$Author: stever $
-$Date: 2003-11-17 04:07:51 $
+$Revision: 1.4 $
+$Author: clepage $
+$Date: 2018/12/05 18:24:46 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #ifndef FILE_IO_H
@@ -43,7 +43,7 @@ public:
   InputFile(std::istream *pipe)   { _ipipe = pipe; }
   ~InputFile()                { close(); }
 
-  operator void *() const;
+  operator std::istream *() const;
   operator std::istream& () { return *_ipipe; }
 
 // Set functions
