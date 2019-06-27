@@ -14,7 +14,7 @@
 $RCSfile: backProp.cc,v $
 $Revision: 1.4 $
 $Author: jason $
-$Date: 2004-01-19 15:38:15 $
+$Date: 2004/01/19 15:38:15 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #include <config.h>

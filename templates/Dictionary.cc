@@ -14,7 +14,7 @@
 $RCSfile: Dictionary.cc,v $
 $Revision: 1.2 $
 $Author: bert $
-$Date: 2003-04-16 15:03:14 $
+$Date: 2003/04/16 15:03:14 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #include "Dictionary.h"

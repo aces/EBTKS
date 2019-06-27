@@ -14,7 +14,7 @@
 $RCSfile: dcomplex.h,v $
 $Revision: 1.3 $
 $Author: stever $
-$Date: 2003-11-17 04:07:52 $
+$Date: 2003/11/17 04:07:52 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #ifndef _DCOMPLEX_H

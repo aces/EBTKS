@@ -14,7 +14,7 @@
 $RCSfile: TrainingSet.h,v $
 $Revision: 1.2 $
 $Author: stever $
-$Date: 2003-11-17 04:07:52 $
+$Date: 2003/11/17 04:07:52 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #ifndef TRAINING_SET_H

@@ -14,7 +14,7 @@
 $RCSfile: MatrixSupport.cc,v $
 $Revision: 1.4 $
 $Author: bert $
-$Date: 2004-01-29 19:42:19 $
+$Date: 2004/01/29 19:42:19 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #include "config.h"

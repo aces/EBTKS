@@ -14,7 +14,7 @@
 $RCSfile: Histogram.h,v $
 $Revision: 1.4 $
 $Author: bert $
-$Date: 2004-12-08 16:42:55 $
+$Date: 2004/12/08 16:42:55 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #ifndef HISTOGRAM_H

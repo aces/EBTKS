@@ -14,7 +14,7 @@
 $RCSfile: MatrixConv.cc,v $
 $Revision: 1.4 $
 $Author: bert $
-$Date: 2004-12-08 17:06:56 $
+$Date: 2004/12/08 17:06:56 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #include <config.h>

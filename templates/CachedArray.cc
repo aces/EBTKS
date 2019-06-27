@@ -14,7 +14,7 @@
 $RCSfile: CachedArray.cc,v $
 $Revision: 1.11 $
 $Author: claude $
-$Date: 2014-10-28 17:56:38 $
+$Date: 2014/10/28 17:56:38 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #include <config.h>

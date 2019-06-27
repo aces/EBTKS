@@ -14,7 +14,7 @@
 $RCSfile: OpTimer.cc,v $
 $Revision: 1.4 $
 $Author: stever $
-$Date: 2003-11-17 04:07:52 $
+$Date: 2003/11/17 04:07:52 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #include "OpTimer.h"

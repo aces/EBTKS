@@ -14,7 +14,7 @@
 $RCSfile: CachedArray.h,v $
 $Revision: 1.4 $
 $Author: bert $
-$Date: 2004-12-08 17:02:34 $
+$Date: 2004/12/08 17:02:34 $
 $State: Exp $
 --------------------------------------------------------------------------*/
 #ifndef _CACHED_ARRAY_H
